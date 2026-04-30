@@ -186,15 +186,19 @@
 
                 <figure>
                   <img src="charts/chart2.png" alt="Visualization supporting the proposition" />
-                    <figcaption>BRIEF CAPTION HERE.</figcaption>
+                    <figcaption>As clinic availability decreases, the percentage of women traveling out of state for abortions increases, especially in Republican leaning states, indicating that reduced access changes where abortions occur, rather than reducing their overall occurences.</figcaption>
                 </figure>
 
                 <p>Design Decisions and Rationale:</p>
 
                 <ul>
-                    <li>RATIONALE_1</li>
-                    <li>RATIONALE_2</li>
-                    <li>RATIONALE_3</li>
+                    <li>Clinic availability was grouped into percentage-based bins to show how travel behavior changes as access decreases. This transformation simplifies a continuous variable into clear categories, making the trend easier to interpret. However, binning can hide variation within each range and may exaggerate differences between groups. A continuous line or scatterplot was considered, but binning and barcharts were chosen to create a clearer trend. SCORE: 1.5</li>
+
+                    <li>The visualization was split into two panels for Republican- and Democratic-leaning states. This separation allows for direct comparison between political groups without overlapping data, improving clarity. However, it may also exaggerate perceived differences by visually isolating the groups instead of showing them together. A combined chart was considered, but splitting them up was chosen to make comparisons more straightforward. SCORE: 0.5</li>
+
+                    <li>Color was used consistently, red for Republican states and blue for Democratic states, to align with familiar political conventions and maintain consistency with the first chart. This improves readability and helps viewers quickly interpret the categories. However, it may also bias interpretation by framing the data along political lines and emphasizing differences between groups. Neutral colors were considered, but red and blue were chosen for clarity and continuity. SCORE: 1</li>
+
+                    <li>The title explicitly states that restricted access shifts where abortions occur rather than reducing them. This framing guides the viewer toward a specific interpretation before analyzing the data, making the visualization more persuasive. While the conclusion is supported by the data, presenting it in the title reduces neutrality. A more descriptive title was considered, but a stronger claim was chosen to reinforce the argument. SCORE: -1</li>
                 </ul>
             </section>
 
