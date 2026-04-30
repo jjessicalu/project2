@@ -142,7 +142,7 @@
             figure img {
     max-width: 100%;
     height: auto;
-    width: 600px; /* adjust this number */
+    width: 700px; /* adjust this number */
     border-radius: 0.5rem;
 }
         </style>
@@ -159,23 +159,37 @@
         </header>
 
         <main>
-            <h2>Proposition: [STATE PROPOSITION]</h2>
+            <h2>Proposition: Reducing access to abortion clinics results in a decrease in abortions</h2>
 
             <section>
                 <h3>FOR the Proposition</h3>
 
                 <figure>
                    <img src="charts/chart1.png" alt="Visualization supporting the proposition" />
-                    <figcaption>BRIEF CAPTION HERE.</figcaption>
+                    <figcaption>As clinic availability decreases, the rate of abortions per 1,000 women also declines across both Republican and Democratic leaning states, suggesting that lower access is associated with fewer recorded abortions regardless of political affiliation.</figcaption>
                 </figure>
 
                 <p>Design Decisions and Rationale:</p>
 
                 <ul>
-                    <li>RATIONALE_1</li>
-                    <li>RATIONALE_2</li>
-                    <li>RATIONALE_3</li>
-                </ul>
+                    <li>
+States were aggregated into tertiles labeled Few, Moderate, and Most Clinics. Tertiles were chosen to simplify the data and make the overall trend easier to interpret at a glance. This decision is persuasive because it highlights a clear pattern in the data, but it may also hide variation within each group, which could weaken the strength of the trend if shown in full detail. A scatterplot displaying all states individually was considered, but grouping was ultimately chosen to avoid overplotting and to present a clearer argument. 
+SCORE: 1.5
+</li>
+
+<li>
+Color was used to represent political affiliation, with red for Republican states and blue for Democratic states. These colors align with widely recognized U.S. political conventions, allowing viewers to quickly interpret the categories without additional explanation. This reinforces comparisons and improves readability, but it may also introduce bias by priming viewers to interpret the data through a partisan lens. Neutral colors were considered, but red and blue were chosen for clarity and familiarity. 
+SCORE: 1
+</li>
+
+<li>
+An annotation was included to highlight that the difference between Republican and Democratic states narrows as clinic access increases. This directs the viewer’s attention to a specific pattern that supports the argument, making the interpretation more immediate. While accurate, this decision is somewhat persuasive because it emphasizes a particular takeaway rather than allowing viewers to independently interpret the data. 
+SCORE: -0.5
+</li>
+<li>
+The y-axis was started at zero to ensure that differences in bar height accurately reflect differences in abortion rates. This decision is fully earnest because it avoids exaggerating differences between groups and maintains visual integrity. While starting the axis above zero could have made differences appear larger and more dramatic, using a zero baseline ensures a more honest representation of the data. 
+SCORE: 2
+</li>
             </section>
 
             <section>
